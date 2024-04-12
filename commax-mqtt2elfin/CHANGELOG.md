@@ -1,5 +1,9 @@
 수정 사항 Changelog
 ==================
+v 1.2.2
+1. HAOS 버전업에 따라 paho.mqtt.python 2.0 업데이트 후 commax-mqtt2elfin 애드온에서 제대로 동작하지 않는 부분 수정
+2. 버전 업데이트에 따른 climate 등록 예시 변경
+
 v 1.2.1
 -------
 1. selenium 패키지 삭제하고 telnet 으로 변경 (elfin ew11 설정에서 telnet을 켜두어야 함)
