@@ -19,7 +19,7 @@ Python으로 제작한 elfin 기기와 mqtt 통신을 통한 코맥스 월패드
 
 설치 방법
 -------
-1. Supervisor -> ADD-ON STORE 이동
+1. `Supervisor` -> `ADD-ON STORE` 이동
 2. `https://github.com/the-xero/HAaddon` 를 Repositories 에 추가하고 새로 고침을 합니다.
 3. `MQTT2elfin COMMAX Wallpad Controller with Python`를 선택하고 INSTALL을 눌러 설치합니다.
 
@@ -39,26 +39,19 @@ Python으로 제작한 elfin 기기와 mqtt 통신을 통한 코맥스 월패드
 </code></pre>
 
 #### OPTION
-`DEBUG` : `true` / `false`
-작업 내역과 저장된 상태 전부를 출력합니다.
-`mqtt_log` : `true` / `false`
-MQTT 전송 신호를 출력합니다.
-`elfin_log` : `true` / `false`
-ew11을 통해 보내거나 받은 신호를 출력합니다.
-`save_unregistered_signal` : `true` / `false`
-등록되지 않은 신호 20개를 출력하고, /share/collected_signal.txt 에 저장합니다.
-`mqtt_server` : 문자
-mqtt 서버의 IP 주소를 적습니다. ex) 192.168.0.2
-`mqtt_id` : 문자
-mqtt 서버 사용자의 아이디를 적습니다.
-`mqtt_password` : 문자
-mqtt 서버 사용자의 암호를 적습니다. 숫자암호인 경우 꼭 따옴표 "1234"를 해주세요.
-`elfin_server` : 문자
-elfin ew11의 IP 주소를 적습니다. ex) 192.168.0.3
-`elfin_id` : 문자
-elfin ew11의 로그인 아이디를 적습니다.
-`elfin_password`: 문자
-elfin ew11의 로그인 암호를 적습니다. 숫자암호인 경우 꼭 따옴표 "1234"를 해주세요.
+
+|옵션|설명|
+|--|--|
+|`DEBUG` : `true` / `false` | 작업 내역과 저장된 상태 전부를 출력합니다. |
+|`mqtt_log` : `true` / `false`|MQTT 전송 신호를 출력합니다.|
+|`elfin_log` : `true` / `false`|ew11을 통해 보내거나 받은 신호를 출력합니다.|
+|`save_unregistered_signal` : `true` / `false`|등록되지 않은 신호 20개를 출력하고, /share/collected_signal.txt 에 저장합니다.|
+|`mqtt_server` : 문자|mqtt 서버의 IP 주소를 적습니다. ex) 192.168.0.2|
+|`mqtt_id` : 문자|mqtt 서버 사용자의 아이디를 적습니다.|
+|`mqtt_password` : 문자|mqtt 서버 사용자의 암호를 적습니다. 숫자암호인 경우 꼭 따옴표 "1234"를 해주세요.|
+|`elfin_server` : 문자|elfin ew11의 IP 주소를 적습니다. ex) 192.168.0.3|
+|`elfin_id` : 문자|elfin ew11의 로그인 아이디를 적습니다.|
+|`elfin_password`: 문자|elfin ew11의 로그인 암호를 적습니다. 숫자암호인 경우 꼭 따옴표 "1234"를 해주세요.
 
 기기 정보 파일 (`commax_found_device.json`) 사용법
 -------------------------------------------
